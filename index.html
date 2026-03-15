@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ollie's Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 style="font-size: 48px; color: black"> Welcome to Ollie's Website! </h1>
+    
+    <img src="DSCF6088.JPG" 
+    alt="my picture" width="600">
+
+
+    <p id = "main">Hi! My name is Oliver Baccay, but you can call me Ollie, and I am a second-year Mathematics student at 
+        <a href="https://www.northeastern.edu/">Northeastern University</a>
+        with a minor in Data Science. I am from Chappaqua, New York, which is a small town about 40 minutes north of New York City. 
+        Currently, I have a strong interest in insurance and actuarial science, which involves using 
+        mathematical and statistical methods to assess risk in the insurance and finance industries, particularly
+        at their intersection with machine learning and data engineering. I enjoy the applied side of mathematics 
+        (e.g. probability, statistics, machine learning),
+        which led me to pursue a minor in data science and learn programming languages such as Python and SQL. 
+        Outside of coursework, I continue to grow and challenge myself in clubs such as Generate, where I am a
+        data engineer leveraging my skills in a team of 9 working on a data product for a real client, and The
+        Actuarial Club, where I learn about the actuarial career and get professional tips, including resume and interview advice.</p>
+    
+    <p id="main">I am excited to apply
+        the skills I've been learning in my coursework and club activities at my internship this summer at 
+        <a href="https://www.travelers.com/">Travelers Insurance</a>
+        as an Actuarial Intern and in the fall at
+        <a href="https://www.johnhancock.com/">John Hancock</a>
+        as an Actuarial Co-op! You can find my past internship experiences and professional updates on my 
+        <a href="https://www.linkedin.com/in/oliverbaccay/">LinkedIn</a>, or feel free to reach out to me at 
+        <a href="mailto:baccay.o@northeastern.edu">baccay.o@northeastern.edu</a>. </p>
+
+
+
+     <button id = 'navigateButton'>Page 2</button>
+    <script>
+        const navigateButton = document.getElementById('navigateButton');
+        navigateButton.addEventListener('click', function(){
+            window.location.href = 'page2.html'
+            
+        })
+    </script>   
+
+</body>
+</html>
